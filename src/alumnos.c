@@ -97,6 +97,17 @@ bool CristianFunes(char * cadena, size_t espacio) {
     };
 
     return SerializarAlumno(cadena, espacio, &alumno);
+
+}
+
+bool WilliamsLimonchi(char * cadena, size_t espacio) {
+    const struct alumno_s alumno = {
+        .apellidos = "LIMONCHI",
+        .nombres = "Williams Ernesto",
+        .documento = "48.164.921",
+    };
+
+    return SerializarAlumno(cadena, espacio, &alumno);
 }
 
 /*=====[Implementations of private functions]================================*/
