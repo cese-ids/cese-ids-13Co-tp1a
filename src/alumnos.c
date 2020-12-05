@@ -30,6 +30,16 @@
 
 /*=====[Implementations of public functions]=================================*/
 
+bool IgnacioMoya(char * cadena, size_t espacio) {
+    const struct alumno_s alumno = {
+        .apellidos = "MOYA",
+        .nombres = "Ignacio Jose",
+        .documento = "35.583.274",
+    };
+
+    return SerializarAlumno(cadena, espacio, &alumno);
+}
+
 /*=====[Implementations of interrupt functions]==============================*/
 
 bool SerializarAlumno(char * cadena, size_t espacio, const alumno_t alumno) {
