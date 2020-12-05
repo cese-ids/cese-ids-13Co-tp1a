@@ -120,4 +120,14 @@ bool CristianLocatelli(char * cadena, size_t espacio) {
     return SerializarAlumno(cadena, espacio, &alumno);
 }
 
+bool IgnacioMoya(char * cadena, size_t espacio) {
+    const struct alumno_s alumno = {
+        .apellidos = "MOYA",
+        .nombres = "Ignacio Jose",
+        .documento = "35.583.274",
+    };
+
+    return SerializarAlumno(cadena, espacio, &alumno);
+}
+
 /*=====[Implementations of private functions]================================*/
