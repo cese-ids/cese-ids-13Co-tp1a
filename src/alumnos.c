@@ -126,7 +126,8 @@ bool IgnacioMoya(char * cadena, size_t espacio) {
         .apellidos = "MOYA",
         .nombres = "Ignacio Jose",
         .documento = "35.583.274",
-
+    };
+    
     return SerializarAlumno(cadena, espacio, &alumno);
 }
 
