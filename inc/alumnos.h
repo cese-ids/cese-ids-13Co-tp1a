@@ -57,7 +57,13 @@ bool CristianLocatelli(char * cadena, size_t espacio);
 
 bool IgnacioMoya(char * cadena, size_t espacio);
 
+bool MartinMelloTeggia(char * cadena, size_t espacio);
 bool GonzaloSanchez(char * cadena, size_t espacio);
+
+bool JoaquinUlloa(char * cadena, size_t espacio);
+
+bool SantiagoEsteva(char * cadena, size_t espacio);
+
 
 /*=====[Prototypes (declarations) of public interrupt functions]=============*/
 
