@@ -182,4 +182,14 @@ bool GermanCardozo(char * cadena, size_t espacio) {
 }
 
 
+bool ArielCerfoglia(char * cadena, size_t espacio) {
+    const struct alumno_s alumno = {
+        .apellidos = "CERFOGLIA",
+        .nombres = "Ariel Alejandro",
+        .documento = "36.273.467",
+    };
+
+    return SerializarAlumno(cadena, espacio, &alumno);
+}
+
 /*=====[Implementations of private functions]================================*/
