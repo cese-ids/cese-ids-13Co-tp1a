@@ -25,6 +25,7 @@
 /*=====[Definitions of public global variables]==============================*/
 
 /*=====[Definitions of private global variables]=============================*/
+char cadena[100] = "";
 
 /*=====[Prototypes (declarations) of private functions]======================*/
 
@@ -35,5 +36,12 @@
 /*=====[Implementations of private functions]================================*/
 
 int main(int argc, char *argv[]) {
+    
+    if (ArielCerfoglia(cadena, sizeof(cadena))) {
+        printf("Alumno: %s\r\n", cadena);
+    } else {
+        printf("No se pudo serializar el alumno\r\n");
+    }
+    
     return 0;
 }
