@@ -67,7 +67,6 @@ bool EstebanVolentini(char * cadena, size_t espacio) {
     return SerializarAlumno(cadena, espacio, &ALUMNO);
 }
 
-<<<<<<< HEAD
 bool PabloNarvaez(char * cadena, size_t espacio) {
     static const struct alumno_s ALUMNO = {
         .apellidos = "NARVAEZ",
@@ -78,8 +77,6 @@ bool PabloNarvaez(char * cadena, size_t espacio) {
     return SerializarAlumno(cadena, espacio, &ALUMNO);
 }
 
-=======
->>>>>>> origin/master
 bool MaximilianoGraf(char * cadena, size_t espacio) {
     const struct alumno_s alumno = {
         .apellidos = "GRAF",
